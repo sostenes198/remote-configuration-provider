@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{60550C5D-7656-4EF5-9EC1-4A9460DE3115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConfigurationProvider.Domain", "src\RemoteConfigurationProvider.Domain\RemoteConfigurationProvider.Domain.csproj", "{D3EA896E-62A3-4017-BF26-22523E667A59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ECE542D1-47C2-4C1B-B975-39CAA0B544D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConfigurationProvider.Test", "RemoteConfigurationProvider.Test\RemoteConfigurationProvider.Test.csproj", "{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3EA896E-62A3-4017-BF26-22523E667A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EA896E-62A3-4017-BF26-22523E667A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EA896E-62A3-4017-BF26-22523E667A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EA896E-62A3-4017-BF26-22523E667A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3EA896E-62A3-4017-BF26-22523E667A59} = {60550C5D-7656-4EF5-9EC1-4A9460DE3115}
+		{D174EC35-E0D0-4340-BE0C-8F6CDC98CAA1} = {ECE542D1-47C2-4C1B-B975-39CAA0B544D3}
+	EndGlobalSection
+EndGlobal
