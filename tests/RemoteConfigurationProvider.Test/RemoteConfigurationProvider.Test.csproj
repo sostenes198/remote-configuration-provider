@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\src\RemoteConfigurationProvider.Domain\RemoteConfigurationProvider.Domain.csproj" />
+      <ProjectReference Include="..\..\src\RemoteConfigurationProvider.Domain\RemoteConfigurationProvider.Domain.csproj" />
     </ItemGroup>
 
 </Project>
